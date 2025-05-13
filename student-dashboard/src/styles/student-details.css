@@ -1,0 +1,97 @@
+/* Student details page styles */
+.student-details-container {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.back-button {
+  margin-bottom: 1.5rem;
+}
+
+.student-details-card {
+  max-width: 48rem;
+  margin: 0 auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background-color: var(--color-background);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.student-details-header {
+  padding: 1.5rem 1.5rem 0.5rem;
+}
+
+.student-details-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.student-details-email {
+  color: var(--color-muted-foreground);
+  font-size: 0.875rem;
+}
+
+.student-details-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.student-info-section {
+  margin-bottom: 1.5rem;
+}
+
+.student-info-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.student-info-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+
+.student-info-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.student-info-label {
+  color: var(--color-muted-foreground);
+}
+
+.student-info-value {
+  font-weight: 400;
+}
+
+.student-details-footer {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-active {
+  color: #16a34a;
+  font-weight: 500;
+}
+
+.additional-info {
+  color: var(--color-muted-foreground);
+}
+
+@media (min-width: 768px) {
+  .student-info-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  .student-info-section {
+    margin-bottom: 0;
+  }
+}
